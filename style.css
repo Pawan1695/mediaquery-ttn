@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrap-1{
+    background:linear-gradient(rgb(7 26 38 / 83%), rgb(7 26 38 / 78%)), url(./omGOtNv.jpg) no-repeat ;
+    background-size:cover;
+    width: 100%;
+    
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+ }
+
+ .header{
+    border-bottom: 1px solid #fff;
+    padding: 20px 0px 30px 0px;
+ }
+
+.header > h1 a{
+    color: #fff;
+   float: left;
+   font-size: 25px;
+   line-height: 40px;
+   text-decoration: none;
+   
+}
+
+.nav ul{
+    float: right;
+}
+
+.nav ul li{
+    list-style-type: none;
+    float: left;
+    line-height: 40px;
+}
+
+.nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding-right: 40px;
+}
+
+.slide{
+    float: right;
+    color: #fff;
+    display: none;
+
+}
+
+.sidenav {
+    height: 100vh;
+    padding: 30px 40px;
+    background-color: #6cc092;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: left;
+    display: none;
+}
+
+.sidenav ul{
+    margin-top: 30px;
+}
+
+.sidenav ul li{
+    list-style-type: none;
+    padding: 10px 0px;
+}
+
+.sidenav ul li a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+
+}
+
+.clear{
+    clear: both;
+}
+
+.wrap-1  .section{
+    text-align: center;
+    padding: 9% 0%;
+    
+}
+
+.cont, .logo{
+    color: #fff;
+    padding: 30px 0px;
+}
+
+.logo ul{
+    display: inline-block;
+
+}
+.logo ul li{
+    list-style-type: none;
+    float: left;
+    margin: 0px 38px;
+    color: inherit;
+}
+
+.logo .bord{
+    border-right: 1px solid grey;
+    text-align: center;
+    height: 15vh;
+}
+
+.logo ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.logo ul li .fa {
+    
+    color: green;
+    font-size: 25px;
+}
+
+.logo .para, span{
+    padding: 15px 0px;
+}
+
+.logo span{
+    color: grey;
+    font-size: 17px;
+}
+
+.wrap-1  .section button{
+    padding: 8px 30px;
+    border-radius: 15px;
+    border: 2px solid green;
+    background: transparent;
+    color: green;
+    cursor: pointer;
+}
+
+.wrap-2{
+    text-align: center;
+    
+}
+
+.wrap-2 img{
+    width: 14vw;
+    height: 28vh;
+    border-radius:50% ;
+}
+
+.wrap-2 .details{
+    width: 30%;
+    float: left;
+    margin: 8% 10%;;
+}
+
+.details h3{
+    padding: 20px 0px;
+}
+
+.details p{
+    line-height: 22px;
+    color: grey;
+    margin-bottom: 15px;
+}
+
+.details button{
+    padding: 10px 20px;
+    background: transparent;
+    color: green;
+    border: 1px solid;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+
+
+@media screen and (max-width: 1200px){
+    .container{
+        width: 1170px;
+    }
+}
+
+@media screen and (max-width: 1170px){
+    .container{
+        width: 950px;
+    }
+}
+
+@media screen and (max-width: 970px){
+    .container{
+        width: 750px;
+    }
+
+    .nav{
+        display: none;
+    }
+
+
+    .slide {
+        display: block;
+        float: right;
+        color: #fff;
+        font-size: 17px;
+    }
+
+    
+    .slide:hover .sidenav{
+        display: block;
+    }
+      
+
+    .wrap-2 .details{
+    
+        width: 100%;
+        float: none;
+        margin: 8% 0%;
+    }
+
+}
+
+@media screen and (max-width: 750px){
+    .container{
+        width: 100%;
+    }
+
+    .logo ul li{        
+        float: none;        
+    }
+    
+    .logo .bord{
+        border-right: none;
+        height: 8vh;
+    }
+
+    .wrap-2 .details{
+    
+        width: 100%;
+        float: none;
+        margin: 8% 0%;
+    }
+
+}
